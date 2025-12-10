@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="resume-wrapper">
+        <div class="accent-top"></div>
+        <div class="resume-grid">
+            <aside class="sidebar">
+                <div class="photo-wrap">
+                    <img src="C:\Users\ashue\OneDrive\Desktop\WhatsApp Image 2025-12-10 .jpeg" alt="Profile photo of Smitha H A"
+                         class="profile-photo"
+                         style="width:120px;height:120px;border-radius:12px;object-fit:cover;">
+                </div>
+                <h1 class="name">Smitha H A</h1>
+                <p class="role">Computer Science student — web development &amp; ML</p>
+                <div class="sidebar-actions">
+                    <button id="printBtn" class="btn primary">Download PDF</button>
+                    <a class="btn ghost" href="biodata.html">Contact</a>
+                </div>
+                <nav class="sidebar-nav">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                </nav>
+                <p class="small muted">© 2025 — Built with HTML/CSS/JS</p>
+            </aside>
+
+            <section class="content">
+                <section id="about" class="card">
+                    <h2>About</h2>
+                    <p>I am a passionate learner exploring web technologies and machine learning. I enjoy building small projects that solve real problems and help me learn new skills.</p>
+                </section>
+
+                <section id="skills" class="card">
+                    <h2>Skills</h2>
+                    <ul class="skills-list">
+                        <li>HTML &amp; CSS</li>
+                        <li>JavaScript &amp; jQuery</li>
+                        <li>Python &amp; DSA basics</li>
+                        <li>Responsive design</li>
+                    </ul>
+                </section>
+
+                <section id="projects" class="card projects">
+                    <h2>Projects</h2>
+                    <div class="project-grid">
+                        <article class="project">
+                            <h3>Project One</h3>
+                            <p>Short description — coursework or small app. A small accessible web utility for collecting/displaying user names (form handling, validation). Tech: HTML/CSS/JS. Difficulty: Easy.</p>
+                            <a class="link" href="#">View</a>
+                        </article>
+
+                        <article class="project">
+                            <h3>Project Two</h3>
+                            <p>Short description — coursework or small app. A basic ML model using Python to predict outcomes based on a simple dataset (data preprocessing, model training). Tech: Python. Difficulty: Medium.</p>
+                            <a class="link" href="#">View</a>
+                        </article>
+
+                        <article class="project">
+                            <img src="C:\Users\ashue\OneDrive\Desktop\WhatsApp Image 2025-12-10 .jpeg" alt="Simple Name project thumbnail" class="project-thumb">
+                            <h3>Simple Name</h3>
+                            <p>A small, accessible web utility called "Simple Name" — demonstrates form handling and responsive layout. Replace with your repository link or a short demo screenshot.</p>
+                            <a class="link" href="#">View</a>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="contact" class="card">
+                    <h2>Contact</h2>
+                    <p>Email: <a href="mailto:smithashok7676@gmail.com">smithashok7676@gmail.com</a></p>
+                </section>
+            </section>
+        </div>
+        <div class="accent-bottom"></div>
+    </main>
+
+    <script>
+        document.getElementById('printBtn').addEventListener('click', function(){
+            window.print();
+        });
+    </script>
+</body>
+</html>
